@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../public/logo.svg";
+import heroImage from "../public/hero.png";
+import kofiImage from "../public/kofi.png";
 
 export default function Home() {
   return (
@@ -114,8 +116,7 @@ export default function Home() {
               <Image
                 loading="lazy"
                 decoding="async"
-                data-nimg="1"
-                src="/hero.png"
+                src={heroImage}
                 alt="Hero Image"
                 width={1239}
                 height={853}
@@ -130,11 +131,7 @@ export default function Home() {
           <h1 className="md:text-[80px] sm:text-[64px] text-[36px] font-[700] text-black sm:leading-[100%] leading-[120%] max-w-3xl">
             Days on market, page views and cost per square meter for every
             listing.
-            <p className="md:text-[20px] text-[16px] leading-[150%] max-w-xl text-[#666666] py-6">
-              With the power of AI, just kidding there's no AI.
-            </p>
           </h1>
-
           <Image
             src={logo}
             alt="Logo"
@@ -208,6 +205,11 @@ export default function Home() {
         <div className="flex justify-center">
           <p>5 star review on Google</p>
         </div>
+        <div className="flex flex-col gap-3">
+          <p className="md:text-[20px] text-[16px] leading-[150%] max-w-xl text-[#666666] py-6">
+            With the power of AI, just kidding there&apos;s no AI.
+          </p>
+        </div>
       </section>
 
       <footer className="w-full h-[70px] border-t border-black border-opacity-20 py-5 px-5">
@@ -226,10 +228,11 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
-                <img
-                  src="/kofi.png"
+                <Image
+                  src={kofiImage}
                   alt="Ko-fi"
-                  style={{ width: "40px", height: "auto" }}
+                  width={40}
+                  height={27.6} // Maintaining aspect ratio
                 />
                 <span>Support</span>
               </a>
