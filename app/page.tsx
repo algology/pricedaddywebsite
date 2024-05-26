@@ -99,13 +99,21 @@ export default function Home() {
                 property listing.
               </p>
             </div>
-            <div className="grid place-items-center gap-5">
+            <div className="flex place-items-center gap-5">
               <Link
                 href="https://chromewebstore.google.com/detail/price-daddy/aaafhonbegjjedhpomjjjpodjaakdbfc"
                 target="_blank"
               >
-                <button className="max-w-auto bg-white hover:bg-[#fafafa] md:text-[22px] text-[16px] font-semibold border rounded-full border-[#000] border-opacity-10 py-[30px] px-[50px] sm:py-[38px] sm:px-[68px]">
+                <button className="max-w-auto bg-white hover:bg-[#fafafa] md:text-[22px] text-[16px] font-semibold border rounded-full border-[#000] border-opacity-10 py-[20px] px-[40px] sm:py-[28px] sm:px-[68px] flex items-center justify-center">
                   Download for Chrome
+                </button>
+              </Link>
+              <Link href="https://www.pricedaddy.homes" target="_blank">
+                <button className="max-w-auto bg-white hover:bg-[#fafafa] md:text-[22px] text-[16px] font-semibold border rounded-full border-[#000] border-opacity-10 py-[20px] px-[40px] sm:py-[28px] sm:px-[68px] flex items-center justify-center relative">
+                  <span>Download for Firefox</span>
+                  <p className="text-[10px] text-[#666666] absolute bottom-[10px]">
+                    coming soon
+                  </p>
                 </button>
               </Link>
             </div>
@@ -197,10 +205,10 @@ export default function Home() {
               </div>
               <div>
                 <p className="text-black md:text-[20px] text-[18px] font-bold leading-[150%]">
-                  Cost per Square Meter
+                  Cost per Square Metre
                 </p>
                 <p className="text-[#666666] md:text-[16px] text-[14px] leading-[150%]">
-                  Compare the price per square meter across different
+                  Compare the price per square metre across different
                   properties.
                 </p>
               </div>
