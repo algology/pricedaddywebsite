@@ -4,7 +4,7 @@ import Image from "next/image";
 import logo from "@/public/logo.svg";
 import heroImage from "@/public/hero.png";
 import daysOnMarket from "../public/daysOnMarketImage.png";
-import costpersqmImage from "../public/costpersqmimage.png";
+import costpersqmImage from "../public/costpersqmImage.png";
 import viewsImage from "../public/viewsImage.png";
 
 export default function Home() {
