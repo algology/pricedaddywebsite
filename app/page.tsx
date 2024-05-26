@@ -149,7 +149,6 @@ export default function Home() {
                     alt="Days on Market"
                     width={180}
                     height={180}
-                    objectFit="contain"
                   />
                 </div>
               </div>
@@ -171,7 +170,6 @@ export default function Home() {
                       alt="Page views image"
                       width={160}
                       height={160}
-                      objectFit="contain"
                     />
                   </div>
                 </div>
@@ -194,7 +192,6 @@ export default function Home() {
                       alt="cost per sqm image"
                       width={160}
                       height={160}
-                      objectFit="contain"
                     />
                   </div>
                 </div>
@@ -213,14 +210,14 @@ export default function Home() {
         </section>
       </div>
 
-      <section className="w-full max-w-7xl mx-auto py-10 px-5 sm:px-2">
-        <div className="flex gap-5 justify-between items-center">
+      <section className="w-full max-w-7xl mx-auto py-10 px-5 sm:px-2 justify-center">
+        <div>
           <Image
             src={logo}
             alt="Logo"
             width={620 / 4}
             height={427 / 4}
-            className="dark:rotate-0 transition-all antialiased justify-center flex"
+            className="dark:rotate-0 transition-all antialiased"
           />
         </div>
         <div className="flex flex-row gap-1 mt-4 justify-center">
