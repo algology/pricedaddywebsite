@@ -10,19 +10,6 @@ import viewsImage from "../public/viewsImage.png";
 export default function Home() {
   return (
     <main className="w-full h-auto">
-      <header className="w-full">
-        <section className="w-full max-w-7xl mx-auto py-10 flex flex-row justify-between items-center px-5 sm:px-2">
-          <svg
-            width="98"
-            height="33"
-            viewBox="0 0 98 33"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            {/* SVG content */}
-          </svg>
-        </section>
-      </header>
       <div className="relative">
         <div className="absolute z-[0] top-0 w-full h-full">
           <div className="w-full h-full hidden sm:block">
@@ -81,10 +68,22 @@ export default function Home() {
                 {/* SVG content */}
               </svg>
             </div>
-            <div className="scale-[1] absolute top-[35%] left-[10%]">
+            <div className="scale-[2] absolute top-[35%] left-[10%]">
               <div className="w-3 h-3 bg-[#E9AAFF] rounded-full"></div>
             </div>
-            <div className="scale-[1] absolute top-[35%] left-[70%]">
+            <div className="scale-[1] absolute top-[15%] left-[70%]">
+              <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
+            </div>
+            <div className="scale-[1] absolute top-[15%] left-[90%]">
+              <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
+            </div>
+            <div className="scale-[0.75] absolute top-[15%] left-[10%]">
+              <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
+            </div>
+            <div className="scale-[0.5] absolute top-[20%] left-[10%]">
+              <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
+            </div>
+            <div className="scale-[1] absolute top-[5%] left-[90%]">
               <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
             </div>
           </div>
@@ -129,7 +128,7 @@ export default function Home() {
       </div>
 
       <div className="bg-[#F9F9F9]">
-        <section className="w-full max-w-7xl mx-auto sm:py-52 py-20 px-5 sm:px-2">
+        <section className="w-full max-w-7xl mx-auto sm:py-36 py-20 px-5 sm:px-2">
           <div className="flex flex-col sm:gap-10 gap-5 pb-10">
             <h1 className="md:text-[80px] sm:text-[64px] text-[36px] font-[700] text-black sm:leading-[100%] leading-[120%] max-w-3xl">
               With the power of AI, just kidding there&apos;s no AI.
@@ -212,7 +211,19 @@ export default function Home() {
 
       <div className="bg-[#F9F9F9] py-12">
         <section className="w-full max-w-7xl mx-auto px-5 sm:px-2">
-          <div className="flex flex-col gap-10 pb-0">
+          <div className="pb-10 w-auto">
+            <div className="block">
+              <div className="sm:p-10 p-5 w-full rounded-full bg-white flex flex-row gap-3 justify-center">
+                <Image src={logo} alt="Logo" width={66} height={66} />
+                <Image src={logo} alt="Logo" width={66} height={66} />
+                <Image src={logo} alt="Logo" width={66} height={66} />
+                <Image src={logo} alt="Logo" width={66} height={66} />
+                <Image src={logo} alt="Logo" width={66} height={66} />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-10 py-20">
             <div className="flex sm:flex-row sm:gap-0 flex-col gap-5 justify-between items-baseline">
               <h1 className="md:text-[80px] sm:text-[64px] text-[36px] font-[700] text-black sm:leading-[100%] leading-[120%] max-w-3xl">
                 A few more nice things people say about PriceDaddy!
@@ -346,21 +357,49 @@ export default function Home() {
         </section>
       </div>
 
-      <section className="w-full max-w-7xl mx-auto py-10 px-5 sm:px-2 justify-center">
-        <div className="flex justify-center">
-          <Image
-            src={logo}
-            alt="Logo"
-            width={620 / 4}
-            height={427 / 4}
-            className="dark:rotate-0 transition-all antialiased"
-          />
+      <section className="w-full max-w-7xl mx-auto px-5 sm:px-2 justify-center py-20">
+        <h1 className="md:text-[116px] sm:text-[80px] text-[42px] font-[700] text-black sm:leading-[100%] leading-[120%] text-center p-20">
+          Beat the sugar daddies. Get PriceDaddy!
+        </h1>
+        <div className="w-full grid place-items-center p-12">
+          <Link
+            href="https://chromewebstore.google.com/detail/price-daddy/aaafhonbegjjedhpomjjjpodjaakdbfc"
+            target="_blank"
+          >
+            <button className="max-w-auto bg-white hover:bg-[#fafafa] md:text-[22px] text-[16px] font-semibold border rounded-full border-[#000] border-opacity-10 py-[30px] px-[50px] sm:py-[38px] sm:px-[68px]">
+              Get PriceDaddy! now
+            </button>
+          </Link>
         </div>
-        <div className="flex flex-col gap-3">
-          <p className="md:text-[20px] text-[16px] leading-[150%] max-w-xl text-[#666666] py-6"></p>
+
+        <div className="scale-[2] absolute top-[15%] left-[10%]">
+          <div className="w-3 h-3 bg-[#E9AAFF] rounded-full"></div>
+        </div>
+        <div className="scale-[1] absolute top-[12%] left-[70%]">
+          <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
+        </div>
+        <div className="scale-[1] absolute top-[10%] left-[80%]">
+          <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
+        </div>
+        <div className="scale-[0.75] absolute top-[5%] left-[5%]">
+          <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
+        </div>
+        <div className="scale-[0.5] absolute top-[15%] left-[10%]">
+          <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
+        </div>
+        <div className="scale-[1] absolute top-[5%] left-[90%]">
+          <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
         </div>
       </section>
-
+      <div className="flex justify-center">
+        <Image
+          src={logo}
+          alt="Logo"
+          width={620}
+          height={427}
+          className="dark:rotate-0 transition-all antialiased"
+        />
+      </div>
       <footer className="w-full h-[70px] border-t border-black border-opacity-20 py-5 px-5">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-row gap-10 justify-center items-center">
