@@ -423,7 +423,7 @@ export default function Home() {
               <div
                 dangerouslySetInnerHTML={{
                   __html:
-                    "<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#ff914dff', 'I3I1YBHSG');kofiwidget2.draw();</script>",
+                    "<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support this', '#ff914dff', 'I3I1YBHSG');kofiwidget2.draw();</script>",
                 }}
               />
             </div>
