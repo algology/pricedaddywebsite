@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "@/public/logo.svg";
 import heroImage from "@/public/hero.png";
-import daysOnMarket from "@/public/daysOnMarketImage.png";
-import costpersqmImage from "@/public/costpersqmimage.png";
-import viewsImage from "@/public/viewsImage.png";
+import daysOnMarket from "../public/daysOnMarketImage.png";
+import costpersqmImage from "../public/costpersqmimage.png";
+import viewsImage from "../public/viewsImage.png";
 
 export default function Home() {
   return (
