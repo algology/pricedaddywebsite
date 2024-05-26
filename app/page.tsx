@@ -214,11 +214,11 @@ export default function Home() {
           <div className="pb-10 w-auto">
             <div className="block">
               <div className="sm:p-10 p-5 w-full rounded-full bg-white flex flex-row gap-3 justify-center">
-                <Image src={logo} alt="Logo" width={66} height={66} />
-                <Image src={logo} alt="Logo" width={66} height={66} />
-                <Image src={logo} alt="Logo" width={66} height={66} />
-                <Image src={logo} alt="Logo" width={66} height={66} />
-                <Image src={logo} alt="Logo" width={66} height={66} />
+                <Image src={logo} alt="Logo" width={45} height={45} />
+                <Image src={logo} alt="Logo" width={45} height={45} />
+                <Image src={logo} alt="Logo" width={45} height={45} />
+                <Image src={logo} alt="Logo" width={45} height={45} />
+                <Image src={logo} alt="Logo" width={45} height={45} />
               </div>
             </div>
           </div>
