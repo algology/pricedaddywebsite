@@ -3,6 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../public/logo.svg";
 import heroImage from "../public/hero.png";
+import daysOnMarket from "../public/daysOnMarketImage.png";
+import costpersqmImage from "../public/costpersqmimage.png";
+import viewsImage from "../public/viewsImage.png";
 
 export default function Home() {
   return (
@@ -125,18 +128,99 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="bg-[#F9F9F9]">
+        <section className="w-full max-w-7xl mx-auto sm:py-52 py-20 px-5 sm:px-2">
+          <div className="flex flex-col sm:gap-10 gap-5 pb-10">
+            <h1 className="md:text-[80px] sm:text-[64px] text-[36px] font-[700] text-black sm:leading-[100%] leading-[120%] max-w-3xl">
+              With the power of AI, just kidding there&apos;s no AI.
+            </h1>
+            <p className="md:text-[20px] text-[16px] leading-[150%] max-w-xl text-[#666666]">
+              PriceDaddy! provides detailed price information to help you make
+              informed decisions when buying or selling a property. In addition
+              to price guides find out:
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            <div className="w-full h-auto rounded-2xl flex flex-col justify-between gap-5 p-10 bg-white shadow-lg">
+              <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                  <Image
+                    src={daysOnMarket}
+                    alt="Days on Market"
+                    width={180}
+                    height={180}
+                    objectFit="contain"
+                  />
+                </div>
+              </div>
+              <div>
+                <p className="text-black md:text-[20px] text-[18px] font-bold leading-[150%]">
+                  Days on Market
+                </p>
+                <p className="text-[#666666] md:text-[16px] text-[14px] leading-[150%]">
+                  See how long a property has been listed on the market.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-auto rounded-2xl flex flex-col justify-between gap-5 p-10 bg-white shadow-lg">
+              <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                  <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                    <Image
+                      src={viewsImage}
+                      alt="Page views image"
+                      width={160}
+                      height={160}
+                      objectFit="contain"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p className="text-black md:text-[20px] text-[18px] font-bold leading-[150%]">
+                  Page Views
+                </p>
+                <p className="text-[#666666] md:text-[16px] text-[14px] leading-[150%]">
+                  Discover how much attention a listing is receiving.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-auto rounded-2xl flex flex-col justify-between gap-5 p-10 bg-white shadow-lg">
+              <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                  <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                    <Image
+                      src={costpersqmImage}
+                      alt="cost per sqm image"
+                      width={160}
+                      height={160}
+                      objectFit="contain"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p className="text-black md:text-[20px] text-[18px] font-bold leading-[150%]">
+                  Cost per Square Meter
+                </p>
+                <p className="text-[#666666] md:text-[16px] text-[14px] leading-[150%]">
+                  Compare the price per square meter across different
+                  properties.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <section className="w-full max-w-7xl mx-auto py-10 px-5 sm:px-2">
         <div className="flex gap-5 justify-between items-center">
-          <h1 className="md:text-[80px] sm:text-[64px] text-[36px] font-[700] text-black sm:leading-[100%] leading-[120%] max-w-3xl">
-            Days on market, page views and cost per square meter for every
-            listing.
-          </h1>
           <Image
             src={logo}
             alt="Logo"
-            width={1239}
-            height={853}
-            className="dark:rotate-0 transition-all antialiased"
+            width={620 / 4}
+            height={427 / 4}
+            className="dark:rotate-0 transition-all antialiased justify-center flex"
           />
         </div>
         <div className="flex flex-row gap-1 mt-4 justify-center">
@@ -205,9 +289,7 @@ export default function Home() {
           <p>5 star review on Google</p>
         </div>
         <div className="flex flex-col gap-3">
-          <p className="md:text-[20px] text-[16px] leading-[150%] max-w-xl text-[#666666] py-6">
-            With the power of AI, just kidding there&apos;s no AI.
-          </p>
+          <p className="md:text-[20px] text-[16px] leading-[150%] max-w-xl text-[#666666] py-6"></p>
         </div>
       </section>
 
