@@ -357,8 +357,8 @@ export default function Home() {
         </section>
       </div>
 
-      <section className="w-full max-w-7xl mx-auto px-5 sm:px-2 justify-center py-20">
-        <h1 className="md:text-[116px] sm:text-[80px] text-[42px] font-[700] text-black sm:leading-[100%] leading-[120%] text-center p-20 justify-center">
+      <section className="relative w-full max-w-7xl mx-auto px-5 sm:px-2 justify-center py-20">
+        <h1 className="md:text-[116px] sm:text-[80px] text-[42px] font-[700] text-black sm:leading-[100%] leading-[120%] text-center p-20">
           Beat the sugar daddies. Get PriceDaddy!
         </h1>
         <div className="w-full grid place-items-center p-12">
@@ -391,6 +391,7 @@ export default function Home() {
           <div className="w-3 h-3 bg-[#68AEFF] rounded-full"></div>
         </div>
       </section>
+
       <div className="flex justify-center">
         <Image
           src={logo}
