@@ -372,7 +372,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="scale-[2] absolute top-[15%] left-[10%]">
+        <div className="scale-[2] absolute top-[15%] left-[15%]">
           <div className="w-3 h-3 bg-[#E9AAFF] rounded-full"></div>
         </div>
         <div className="scale-[1] absolute top-[12%] left-[70%]">
