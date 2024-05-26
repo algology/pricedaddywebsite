@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../public/logo.svg";
 import heroImage from "../public/hero.png";
-import kofiImage from "../public/kofi.png";
 
 export default function Home() {
   return (
@@ -214,28 +213,21 @@ export default function Home() {
 
       <footer className="w-full h-[70px] border-t border-black border-opacity-20 py-5 px-5">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-row gap-4 justify-between items-center">
+          <div className="flex flex-row gap-10 justify-center items-center">
             <div className="flex flex-row gap-4">
               <p className="text-sm">Made with spite in Adelaide</p>
             </div>
-            <div className="flex flex-row gap-4 items-center">
+            <div className="flex flex-row gap-10 items-center">
               <a href="mailto:pricedaddyapp@gmail.com" className="text-sm">
                 Get in touch
               </a>
-              <a
-                href="https://ko-fi.com/pricedaddy"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
-                <Image
-                  src={kofiImage}
-                  alt="Ko-fi"
-                  width={40}
-                  height={27.6} // Maintaining aspect ratio
-                />
-                <span>Support</span>
-              </a>
+              {/* Insert the new Ko-fi widget script here */}
+              <div
+                dangerouslySetInnerHTML={{
+                  __html:
+                    "<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#ff914dff', 'I3I1YBHSG');kofiwidget2.draw();</script>",
+                }}
+              />
             </div>
           </div>
         </div>
