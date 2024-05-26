@@ -318,8 +318,8 @@ export default function Home() {
                 </svg>
                 <p>
                   I love how easy PriceDaddy! makes it to compare prices and see
-                  how long a property has been on the market. It's a must-have
-                  tool!
+                  how long a property has been on the market. It&apos;s a
+                  must-have tool!
                 </p>
               </div>
               <div className="w-full h-auto text-[#666666] box-shadow bg-[#fff] rounded-2xl sm:p-10 p-5 md:text-[24px] sm:text-[20px] text-[16px] leading-[150%] flex flex-col gap-4">
