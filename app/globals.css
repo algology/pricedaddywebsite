@@ -75,6 +75,34 @@
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
   }
+
+  *,
+  *::before,
+  *::after {
+    --tw-backdrop-blur: blur(0);
+    --tw-backdrop-brightness: brightness(1);
+    --tw-backdrop-contrast: contrast(1);
+    --tw-backdrop-grayscale: grayscale(0);
+    --tw-backdrop-hue-rotate: hue-rotate(0deg);
+    --tw-backdrop-invert: invert(0);
+    --tw-backdrop-opacity: opacity(1);
+    --tw-backdrop-saturate: saturate(1);
+    --tw-backdrop-sepia: sepia(0);
+  }
+
+  .backdrop-blur-md {
+    --tw-backdrop-blur: blur(12px);
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness)
+      var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale)
+      var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert)
+      var(--tw-backdrop-opacity) var(--tw-backdrop-saturate)
+      var(--tw-backdrop-sepia);
+    -webkit-backdrop-filter: var(--tw-backdrop-blur)
+      var(--tw-backdrop-brightness) var(--tw-backdrop-contrast)
+      var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate)
+      var(--tw-backdrop-invert) var(--tw-backdrop-opacity)
+      var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  }
 }
 
 @layer base {
