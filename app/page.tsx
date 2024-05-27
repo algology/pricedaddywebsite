@@ -108,12 +108,12 @@ export default function Home() {
                   Download for Chrome
                 </button>
               </Link>
-              <Link href="https://www.pricedaddy.homes" target="_blank">
+              <Link
+                href="https://addons.mozilla.org/en-US/firefox/addon/pricedaddyapp/"
+                target="_blank"
+              >
                 <button className="max-w-auto bg-white hover:bg-[#fafafa] md:text-[22px] text-[16px] font-semibold border rounded-full border-[#000] border-opacity-10 py-[20px] px-[40px] sm:py-[28px] sm:px-[68px] flex items-center justify-center relative">
                   <span>Download for Firefox</span>
-                  <p className="text-[10px] text-[#666666] absolute bottom-[10px]">
-                    coming soon
-                  </p>
                 </button>
               </Link>
             </div>
@@ -366,7 +366,7 @@ export default function Home() {
       </div>
 
       <section className="relative w-full max-w-7xl mx-auto px-5 sm:px-2 justify-center py-20">
-        <h1 className="md:text-[116px] sm:text-[80px] text-[42px] font-[700] text-black sm:leading-[100%] leading-[120%] text-center p-20">
+        <h1 className="md:text-[116px] sm:text-[80px] text-[42px] font-[700] text-black sm:leading-[100%] leading-[120%] text-center pt-20">
           Beat the sugar daddies. Get PriceDaddy!
         </h1>
         <div className="w-full grid place-items-center p-12">
