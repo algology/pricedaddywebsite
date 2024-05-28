@@ -6,6 +6,8 @@ import heroImage from "@/public/hero.png";
 import daysOnMarket from "../public/daysOnMarketImage.png";
 import costpersqmImage from "../public/costpersqmImage.png";
 import viewsImage from "../public/viewsImage.png";
+import walkScoreImage from "../public/walkscore.png";
+import transitScoreImage from "../public/transitscore.png";
 
 export default function Home() {
   return (
@@ -147,7 +149,7 @@ export default function Home() {
               to price guides find out:
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 pb-10">
             <div className="w-full h-auto rounded-2xl flex flex-col justify-between gap-5 p-10 bg-white shadow-lg">
               <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
                 <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
@@ -210,6 +212,49 @@ export default function Home() {
                 <p className="text-[#666666] md:text-[16px] text-[14px] leading-[150%]">
                   Compare the price per square metre across different
                   properties.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h2 className="text-black md:text-[24px] text-[20px] font-bold leading-[150%] text-center p-10">
+            Features coming soon!
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-5">
+            <div className="w-full h-auto rounded-2xl flex flex-col justify-between gap-5 p-10 bg-white shadow-lg">
+              <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                <Image
+                  src={walkScoreImage}
+                  alt="Walk Score"
+                  width={160}
+                  height={160}
+                />
+              </div>
+              <div>
+                <p className="text-black md:text-[20px] text-[18px] font-bold leading-[150%]">
+                  Walk Score
+                </p>
+                <p className="text-[#666666] md:text-[16px] text-[14px] leading-[150%]">
+                  See the walkability score of a property.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-auto rounded-2xl flex flex-col justify-between gap-5 p-10 bg-white shadow-lg">
+              <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                <Image
+                  src={transitScoreImage}
+                  alt="Transit Score"
+                  width={160}
+                  height={160}
+                />
+              </div>
+              <div>
+                <p className="text-black md:text-[20px] text-[18px] font-bold leading-[150%]">
+                  Transit Score
+                </p>
+                <p className="text-[#666666] md:text-[16px] text-[14px] leading-[150%]">
+                  Find out the transit score of a property.
                 </p>
               </div>
             </div>
