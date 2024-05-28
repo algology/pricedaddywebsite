@@ -281,8 +281,8 @@ export default function Home() {
               <h1 className="md:text-[80px] sm:text-[64px] text-[36px] font-[700] text-black sm:leading-[100%] leading-[120%] max-w-3xl">
                 A few more nice things people say about PriceDaddy!
               </h1>
-              <div className="flex flex-col gap-3">
-                <div className="flex flex-row gap-1">
+              <div className="flex flex-col gap-3 justify-center">
+                <div className="flex flex-row gap-1 justify-center">
                   <svg
                     width="32"
                     height="30"
@@ -344,7 +344,7 @@ export default function Home() {
                     ></path>
                   </svg>
                 </div>
-                <p>5 star review on Google</p>
+                <p>Over 1000 Users, 5 star review on Google</p>
               </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
