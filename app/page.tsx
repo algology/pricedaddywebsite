@@ -281,8 +281,8 @@ export default function Home() {
               <h1 className="md:text-[80px] sm:text-[64px] text-[36px] font-[700] text-black sm:leading-[100%] leading-[120%] max-w-3xl">
                 A few more nice things people say about PriceDaddy!
               </h1>
-              <div className="flex flex-col gap-3 justify-center">
-                <div className="flex flex-row gap-1 justify-center">
+              <div className="flex flex-col gap-3">
+                <div className="flex flex-row gap-1">
                   <svg
                     width="32"
                     height="30"
@@ -344,7 +344,7 @@ export default function Home() {
                     ></path>
                   </svg>
                 </div>
-                <p>Over 1000 Users, 5 star review on Google</p>
+                <p>1000+ Users, 5 star review on Google</p>
               </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -454,15 +454,15 @@ export default function Home() {
           className="dark:rotate-0 transition-all antialiased"
         />
       </div>
-      <footer className="w-full h-[70px] border-t border-black border-opacity-20 py-5 px-5">
+      <footer className="w-full h-[70px] border-t border-black border-opacity-20 py-5 px-5 text-center">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-row gap-10 justify-center items-center">
             <div className="flex flex-row gap-4">
               <p className="text-sm">Made with spite in Adelaide</p>
             </div>
-            <div className="flex flex-row gap-10 items-center">
+            <div className="flex flex-row gap-10 items-center text-center">
               <a href="mailto:pricedaddyapp@gmail.com" className="text-sm">
-                Get in touch
+                Contact
               </a>
               {/* Insert the new Ko-fi widget script here */}
               <div
