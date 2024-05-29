@@ -102,22 +102,22 @@ export default function Home() {
               </p>
             </div>
             <div className="flex place-items-center gap-5">
-              <Link
+              <a
                 href="https://chromewebstore.google.com/detail/price-daddy/aaafhonbegjjedhpomjjjpodjaakdbfc"
                 target="_blank"
               >
                 <button className="max-w-auto bg-white hover:bg-[#fafafa] md:text-[22px] text-[16px] font-semibold border rounded-full border-[#000] border-opacity-10 py-[20px] px-[40px] sm:py-[28px] sm:px-[68px] flex items-center justify-center">
                   Download for Chrome
                 </button>
-              </Link>
-              <Link
+              </a>
+              <a
                 href="https://addons.mozilla.org/en-US/firefox/addon/pricedaddyapp/"
                 target="_blank"
               >
                 <button className="max-w-auto bg-white hover:bg-[#fafafa] md:text-[22px] text-[16px] font-semibold border rounded-full border-[#000] border-opacity-10 py-[20px] px-[40px] sm:py-[28px] sm:px-[68px] flex items-center justify-center relative">
                   <span>Download for Firefox</span>
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </section>
@@ -415,14 +415,14 @@ export default function Home() {
           Beat the sugar daddies. Get PriceDaddy!
         </h1>
         <div className="w-full grid place-items-center p-12">
-          <Link
+          <a
             href="https://chromewebstore.google.com/detail/price-daddy/aaafhonbegjjedhpomjjjpodjaakdbfc"
             target="_blank"
           >
             <button className="max-w-auto bg-white hover:bg-[#fafafa] md:text-[22px] text-[16px] font-semibold border rounded-full border-[#000] border-opacity-10 py-[30px] px-[50px] sm:py-[38px] sm:px-[68px]">
               Get PriceDaddy! now
             </button>
-          </Link>
+          </a>
         </div>
 
         <div className="scale-[2] absolute top-[15%] left-[15%]">
