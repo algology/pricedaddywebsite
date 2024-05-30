@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import logo from "@/public/logo.svg";
 import heroImage from "@/public/hero.png";
@@ -8,6 +7,7 @@ import costpersqmImage from "../public/costpersqmImage.png";
 import viewsImage from "../public/viewsImage.png";
 import walkScoreImage from "../public/walkscore.png";
 import transitScoreImage from "../public/transitscore.png";
+import nbnConnectionImage from "../public/dial.png";
 
 export default function Home() {
   return (
@@ -221,7 +221,7 @@ export default function Home() {
             Features coming soon!
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-5">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-5">
             <div className="w-full h-auto rounded-2xl flex flex-col justify-between gap-5 p-10 bg-white shadow-lg">
               <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
                 <Image
@@ -236,7 +236,8 @@ export default function Home() {
                   Walk Score
                 </p>
                 <p className="text-[#666666] md:text-[16px] text-[14px] leading-[150%]">
-                  See the walkability score of a property.
+                  Walk Score measures the walkability of an address based on
+                  proximity to amenities and pedestrian friendliness.
                 </p>
               </div>
             </div>
@@ -254,7 +255,27 @@ export default function Home() {
                   Transit Score
                 </p>
                 <p className="text-[#666666] md:text-[16px] text-[14px] leading-[150%]">
-                  Find out the transit score of a property.
+                  Transit Score measures public transit access by distance to
+                  the nearest stop, frequency, and route type.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-auto rounded-2xl flex flex-col justify-between gap-5 p-10 bg-white shadow-lg">
+              <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
+                <Image
+                  src={nbnConnectionImage}
+                  alt="NBN Connection"
+                  width={160}
+                  height={160}
+                />
+              </div>
+              <div>
+                <p className="text-black md:text-[20px] text-[18px] font-bold leading-[150%]">
+                  NBN Score
+                </p>
+                <p className="text-[#666666] md:text-[16px] text-[14px] leading-[150%]">
+                  Check NBN connection type with estimated upload and download
+                  speeds.
                 </p>
               </div>
             </div>
