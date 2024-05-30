@@ -8,6 +8,7 @@ import viewsImage from "../public/viewsImage.png";
 import walkScoreImage from "../public/walkscore.png";
 import transitScoreImage from "../public/transitscore.png";
 import nbnConnectionImage from "../public/dial.png";
+import coding from "../public/coding.svg";
 
 export default function Home() {
   return (
@@ -149,7 +150,7 @@ export default function Home() {
               to price guides find out:
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 pb-10">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             <div className="w-full h-auto rounded-2xl flex flex-col justify-between gap-5 p-10 bg-white shadow-lg">
               <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
                 <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
@@ -217,10 +218,6 @@ export default function Home() {
             </div>
           </div>
 
-          <h2 className="text-black md:text-[24px] text-[20px] font-bold leading-[150%] text-center p-10">
-            Features coming soon!
-          </h2>
-
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-5">
             <div className="w-full h-auto rounded-2xl flex flex-col justify-between gap-5 p-10 bg-white shadow-lg">
               <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
@@ -285,19 +282,22 @@ export default function Home() {
 
       <div className="bg-[#F9F9F9] py-12">
         <section className="w-full max-w-7xl mx-auto px-5 sm:px-2">
-          <div className="pb-10 w-auto">
-            <div className="block">
-              <div className="sm:p-10 p-5 w-full rounded-full bg-white flex flex-row gap-3 justify-center">
-                <Image src={logo} alt="Logo" width={45} height={45} />
-                <Image src={logo} alt="Logo" width={45} height={45} />
-                <Image src={logo} alt="Logo" width={45} height={45} />
-                <Image src={logo} alt="Logo" width={45} height={45} />
-                <Image src={logo} alt="Logo" width={45} height={45} />
-              </div>
+          <div className="flex flex-col gap-10">
+            <div className="flex sm:flex-row sm:gap-0 flex-col gap-5 justify-between items-baseline">
+              <h1 className="md:text-[80px] sm:text-[64px] text-[36px] font-[700] text-black sm:leading-[100%] leading-[120%] max-w-3xl">
+                and more features on the way..
+              </h1>
+            </div>
+            <div className="sm:p-10 p-5 w-full rounded-full  flex flex-row gap-3 justify-center">
+              <Image src={coding} alt="Logo" width={512} height={512} />
             </div>
           </div>
+        </section>
+      </div>
 
-          <div className="flex flex-col gap-10 py-20">
+      <div className="bg-[#F9F9F9] py-12">
+        <section className="w-full max-w-7xl mx-auto px-5 sm:px-2">
+          <div className="flex flex-col gap-10">
             <div className="flex sm:flex-row sm:gap-0 flex-col gap-5 justify-between items-baseline">
               <h1 className="md:text-[80px] sm:text-[64px] text-[36px] font-[700] text-black sm:leading-[100%] leading-[120%] max-w-3xl">
                 A few more nice things people say about PriceDaddy!
@@ -466,14 +466,16 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="flex justify-center">
-        <Image
-          src={logo}
-          alt="Logo"
-          width={620}
-          height={427}
-          className="dark:rotate-0 transition-all antialiased"
-        />
+      <div className="pb-10 w-auto">
+        <div className="block">
+          <div className="sm:p-10 p-5 w-full rounded-full bg-white flex flex-row gap-3 justify-center">
+            <Image src={logo} alt="Logo" width={45} height={45} />
+            <Image src={logo} alt="Logo" width={45} height={45} />
+            <Image src={logo} alt="Logo" width={45} height={45} />
+            <Image src={logo} alt="Logo" width={45} height={45} />
+            <Image src={logo} alt="Logo" width={45} height={45} />
+          </div>
+        </div>
       </div>
       <footer className="w-full h-[70px] border-t border-black border-opacity-20 py-5 px-5 text-center">
         <div className="max-w-7xl mx-auto">
