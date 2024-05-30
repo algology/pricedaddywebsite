@@ -365,7 +365,7 @@ export default function Home() {
                     ></path>
                   </svg>
                 </div>
-                <p>1000+ Users, 5 star review on Google</p>
+                <p>2000+ Users, 5 star review on Google</p>
               </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
