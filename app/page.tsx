@@ -383,9 +383,8 @@ export default function Home() {
                   ></path>
                 </svg>
                 <p>
-                  PriceDaddy! has been a game-changer for me when searching for
-                  properties. The extra price information is incredibly
-                  valuable.
+                  I recommend PriceDaddy! to anyone researching the market.
+                  Bloody brilliant.
                 </p>
               </div>
               <div className="w-full h-auto text-[#666666] box-shadow bg-[#fff] rounded-2xl sm:p-10 p-5 md:text-[24px] sm:text-[20px] text-[16px] leading-[150%] flex flex-col gap-4">
@@ -402,9 +401,9 @@ export default function Home() {
                   ></path>
                 </svg>
                 <p>
-                  I love how easy PriceDaddy! makes it to compare prices and see
-                  how long a property has been on the market. It&apos;s a
-                  must-have tool!
+                  Great little tool! Seems pretty accurate with my use so far as
+                  it&apos;s matching the estimates my mortgage broker is sending
+                  through.
                 </p>
               </div>
               <div className="w-full h-auto text-[#666666] box-shadow bg-[#fff] rounded-2xl sm:p-10 p-5 md:text-[24px] sm:text-[20px] text-[16px] leading-[150%] flex flex-col gap-4">
@@ -420,11 +419,7 @@ export default function Home() {
                     fill="#333333"
                   ></path>
                 </svg>
-                <p>
-                  As a real estate investor, PriceDaddy! has become an essential
-                  part of my toolkit. It saves me so much time and helps me make
-                  informed decisions.
-                </p>
+                <p>Just what I needed!</p>
               </div>
             </div>
           </div>
