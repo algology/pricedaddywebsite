@@ -99,7 +99,8 @@ export default function Home() {
             <div className="text-center max-w-md">
               <p className="md:text-[20px] text-[16px] leading-[150%] max-w-xl text-[#666666]">
                 PriceDaddy! uncovers price information on any realestate.com.au
-                property listing.
+                property listing, including NBN connection, price guides,
+                walkability scores, transit scores, and more.
               </p>
             </div>
             <div className="flex place-items-center gap-5">
@@ -129,7 +130,7 @@ export default function Home() {
                 loading="lazy"
                 decoding="async"
                 src={heroImage}
-                alt="Hero Image"
+                alt="PriceDaddy Chrome Extension Hero Image"
                 width={1239}
                 height={853}
               />
@@ -147,7 +148,7 @@ export default function Home() {
             <p className="md:text-[20px] text-[16px] leading-[150%] max-w-xl text-[#666666]">
               PriceDaddy! provides detailed price information to help you make
               informed decisions when buying or selling a property. In addition
-              to price guides find out:
+              to price guides, find out:
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -156,7 +157,7 @@ export default function Home() {
                 <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
                   <Image
                     src={daysOnMarket}
-                    alt="Days on Market"
+                    alt="Days on Market - See how long a property has been listed"
                     width={180}
                     height={180}
                   />
@@ -177,7 +178,7 @@ export default function Home() {
                   <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
                     <Image
                       src={viewsImage}
-                      alt="Page views image"
+                      alt="Page Views - Discover listing popularity"
                       width={160}
                       height={160}
                     />
@@ -199,7 +200,7 @@ export default function Home() {
                   <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
                     <Image
                       src={costpersqmImage}
-                      alt="cost per sqm image"
+                      alt="Cost per Square Metre - Compare property prices"
                       width={160}
                       height={160}
                     />
@@ -223,7 +224,7 @@ export default function Home() {
               <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
                 <Image
                   src={walkScoreImage}
-                  alt="Walk Score"
+                  alt="Walk Score - Measure walkability"
                   width={160}
                   height={160}
                 />
@@ -242,7 +243,7 @@ export default function Home() {
               <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
                 <Image
                   src={transitScoreImage}
-                  alt="Transit Score"
+                  alt="Transit Score - Measure public transit access"
                   width={160}
                   height={160}
                 />
@@ -261,7 +262,7 @@ export default function Home() {
               <div className="w-full sm:h-[200px] h-[150px] grid place-items-center">
                 <Image
                   src={nbnConnectionImage}
-                  alt="NBN Connection"
+                  alt="NBN Connection - Check NBN connection type"
                   width={160}
                   height={160}
                 />
@@ -285,11 +286,16 @@ export default function Home() {
           <div className="flex flex-col gap-10">
             <div className="flex sm:flex-row sm:gap-0 flex-col gap-5 justify-between items-baseline">
               <h1 className="md:text-[80px] sm:text-[64px] text-[36px] font-[700] text-black sm:leading-[100%] leading-[120%] max-w-3xl">
-                and more features on the way..
+                and more features on the way...
               </h1>
             </div>
             <div className="sm:p-10 p-5 w-full rounded-full  flex flex-row gap-3 justify-center">
-              <Image src={coding} alt="Logo" width={512} height={512} />
+              <Image
+                src={coding}
+                alt="More features coming soon"
+                width={512}
+                height={512}
+              />
             </div>
           </div>
         </section>
@@ -464,11 +470,11 @@ export default function Home() {
       <div className="pb-10 w-auto">
         <div className="block">
           <div className="sm:p-10 p-5 w-full rounded-full bg-white flex flex-row gap-3 justify-center">
-            <Image src={logo} alt="Logo" width={45} height={45} />
-            <Image src={logo} alt="Logo" width={45} height={45} />
-            <Image src={logo} alt="Logo" width={45} height={45} />
-            <Image src={logo} alt="Logo" width={45} height={45} />
-            <Image src={logo} alt="Logo" width={45} height={45} />
+            <Image src={logo} alt="PriceDaddy logo" width={45} height={45} />
+            <Image src={logo} alt="PriceDaddy logo" width={45} height={45} />
+            <Image src={logo} alt="PriceDaddy logo" width={45} height={45} />
+            <Image src={logo} alt="PriceDaddy logo" width={45} height={45} />
+            <Image src={logo} alt="PriceDaddy logo" width={45} height={45} />
           </div>
         </div>
       </div>
